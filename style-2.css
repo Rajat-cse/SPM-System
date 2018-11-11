@@ -1,0 +1,304 @@
+body{
+	background-size: cover;
+	/*background-image:url(images/60.jpg);*/
+	background-color:#FF7F50;
+}
+
+div.div0{
+ 	
+	max-height:200px;
+	max-width: 1270px;
+	min-height:150px;
+	min-width: 1270px;
+	position:absolute;
+	top:10px;
+	left:50px;
+	border-radius: 5px;
+}
+
+div.div1{
+
+	max-height:1000px;
+	max-width:200px;
+	min-height: 520px;
+	min-width: 200px;
+	position:absolute;
+	top:180px;
+	left:50px;
+	border-radius: 5px;
+	
+}
+
+div.div2{
+
+	max-height:1000px; 
+	max-width:750px;
+	min-height: 520px;
+	min-width:750px;
+	position:absolute;
+	top:180px;
+	left:260px;
+	border-radius: 5px;
+}
+
+div.div3{
+
+	
+	max-height:1000px;
+	max-width:300px;
+	min-height: 600px;
+	min-width: 300px;
+	position:absolute;
+	top:180px;
+	left:1020px;
+	border-radius: 5px;
+	
+}
+
+div.div4{
+	
+	max-height:100px;
+	max-width: 750px;
+	min-height:100px;
+	min-width: 750px;
+	position:absolute;
+	top:720px;
+	left:260px;
+	border-radius: 5px;
+}
+
+fieldset.box0{
+	max-height:150px;
+	max-width: 1400px;
+	min-height:130px;
+	min-width: 1240px;
+	position: relative;
+	border-radius: 5px;
+	
+}
+
+fieldset.box1{
+	max-height:2000px;
+	max-width:170px;
+	
+	min-width: 170px;
+	position: relative;
+	border-radius:5px;
+}
+
+fieldset.box2{
+	max-height:1000px;
+	max-width: 720px;
+	min-height: 800px;
+	min-width: 720px;
+	border-radius:5px;
+	position:relative;
+}
+
+textarea.box3{
+	max-height:200px;
+	max-width: 100px;
+	min-height:150px;
+	min-width: 100px;
+	border-radius:5px;
+	top:100px;
+}
+
+fieldset.box4{
+	max-height:400px;
+	max-width: 270px;
+	min-height:180px;
+	min-width: 270px;
+	border-radius:5px;
+	position: relative;
+}
+
+fieldset.box5{
+	max-height:100px;
+	max-width: 720px;
+	min-height:100px;
+	min-width: 720px;
+	position:relative;
+	border-radius: 5px;	
+}
+
+div.box6{
+	max-height:400px;
+	max-width: 250px;
+	min-height:70px;
+	min-width: 250px;
+	border-radius:5px;
+	top:700px;
+}
+fieldset.box7{
+	max-height:1000px;
+	max-width: 700px;
+	min-height:200px;
+	min-width: 700px;
+	border-radius:5px;
+}
+
+
+fieldset.request{
+	max-height:400px;
+	max-width: 170px;
+	min-height:180px;
+	min-width: 170px;
+	border-radius:5px;
+
+	position:relative;
+}
+
+div.div0 img{
+	min-height: 100px;
+	max-height: 100px;
+	min-width: 100px;
+	max-width: 100px;
+	position: absolute;
+}
+
+div.name{
+	min-height: 100px;
+	max-height: 200px;
+	min-width: 950px;
+	max-width: 1400px;
+	position: absolute;
+	left:130px;
+	top:0px;
+}
+
+button.sendemail{
+	font-size:20px;
+	max-height:30px;
+	min-height:35px; 
+	max-width:250px;
+	min-width:250px;
+	position:relative;
+	top:-20px;
+	left:30px;
+	border-radius: 5px;
+}
+
+button.manager{
+	font-size: 20px;
+	min-height:40px; 
+	min-width:120px;
+	position:relative;
+	left:180px;
+	top:-20px;
+	border-radius: 5px;
+}
+
+input.choosefile{
+	font-size:20px;
+	max-height:50px;
+	min-height:50px; 
+	max-width:100px;
+	min-width:100px;
+	position:relative;
+	top:25px;
+	left:150px;
+	border-radius:5px;
+}
+
+button.upload{
+	font-size:20px;
+	max-height:30px;
+	min-height:35px; 
+	max-width:100px;
+	min-width:160px;
+	position:relative;
+	top:25px;
+	left:300px;
+	border-radius: 5px;
+}
+button.logout{
+	font-size:20px;
+	max-height:30px;
+	min-height:35px; 
+	max-width:100px;
+	min-width:100px;
+	position:relative;
+	top:30px;
+	left:1100px;
+	border-radius: 5px;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #333;
+	position: relative;
+	border-radius: 5px;
+	
+}
+.topnav #myLink0 {
+	display: none;
+}
+#myLink1 {
+	display: none;
+}
+.topnav #myLink2 {
+	display: none;
+}
+.topnav #myLink3 {
+	display: none;
+}
+
+.topnav a {
+	color: white;
+	padding: 6px 14px;
+	text-decoration: none;
+	font-size: 15px;
+	display: block;
+}
+
+.topnav a.icon {
+	background-repeat:no-repeat;
+	max-height: 25px;
+	max-width: 8px;
+	min-height: 18px;
+	min-width: 1px;
+  	background-image:url("images/1.svg");
+  	display: block;
+  	position: absolute;
+  	right: 0px;
+  	top: 0px;
+  	border-radius: 50%;
+}
+
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+.active {
+  	background-color: #4CAF50;
+  	color: white;
+}
+
+input.box{
+	max-height:25px;
+	max-width:110px;
+	min-height:25px;
+	min-width:110px;
+	float:right;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+}
+input.textbox{
+	max-height:30px;
+	max-width:135px;
+	min-height:30px;
+	min-width: 135px;
+	float:right;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+}
+input.check{
+	width: 25px;
+	height: 25px;
+	left:350px;
+	position: absolute;
+}

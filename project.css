@@ -1,0 +1,30 @@
+body {
+	background-image: url("images/9.jpg");
+	font-size:20px;
+	font-weight:bold;
+	font-style:italic;
+	text-decoration:normal;
+	text-align:left;
+	color:#FFFFFF;
+}
+
+#id1{
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	text-align:left;
+	color:#FFFFFF;
+}
+
+
+.blinking{
+    animation:blinkingText 0.8s 10;
+	text-decoration:normal;
+}
+@keyframes blinkingText{
+    0%{     color: 	#00FF00;    }
+    49%{    color: transparent; }
+    50%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #00FF00;    }
+}

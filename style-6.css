@@ -1,0 +1,179 @@
+body{
+	background-image:url(images/12.jpg);
+	background-repeat: no-repeat;
+	border-size:cover;
+}
+div.div1{
+	background-color:black;
+	font-family:georgia,serif;
+	min-width:300px;
+	max-width:1000px;
+	min-height:10px;
+	max-height:70px;
+	padding:15px;
+	position:absolute;
+	top:50px;
+	left:510px;
+}
+
+div.div1 h1{
+	text-align:center;
+	color:dodgerblue;
+	
+}
+
+div.div2{
+	background-color:rgba(0,0,0,0.5);
+	font-family:georgia,serif;
+	min-width:100px;
+	max-width:200px;
+	min-height:100px;
+	max-height:300px;
+	padding:15px;
+	position:relative;
+	top:200px;
+	left:300px;
+}
+
+div.div2 img{
+	position:relative;
+	left:35px;
+	padding:15px;
+}
+
+div.div2 form{
+	position:relative;
+	left:50px;
+}
+
+div.div3{
+	background-color:rgba(0,0,0,0.5);
+	font-family:georgia,serif;
+	min-width:100px;
+	max-width:200px;
+	min-height:100px;
+	max-height:300px;
+	padding:15px;
+	position:relative;
+	top:10px;
+	left:800px;
+}
+
+div.div3 img{
+	position:relative;
+	left:40px;
+	padding:15px;
+}
+
+div.div3 form{
+	position:relative;
+	left:50px;
+	top:-5px;
+}
+
+div.div4{
+	background-color:rgba(0,0,0,0.5);
+	position:absolute;
+	min-width:325px;
+	max-width:320px;
+	min-height:40px;
+	max-height:50px;
+	top:650px;
+	left:500px;
+	padding:10px;
+}
+
+div.div4 a{
+	font-size:20px;
+	position:absolute;
+    left:10px;	
+	text-decoration:none;
+	color:#fff;
+}
+
+#a1{
+	position:absolute;
+    left:10px;	
+}
+
+#a2{
+	position:absolute;
+    left:120px;	
+}
+#a3{
+	position:absolute;
+    left:250px;	
+}
+
+div.div5{
+	background-color:rgba(0,0,0,0.5);
+	font-family:georgia,serif;
+	min-width:100px;
+	max-width:200px;
+	min-height:100px;
+	max-height:300px;
+	padding:15px;
+	position:relative;
+	top:50px;
+	left:300px;
+}
+
+div.div5 img{
+	position:relative;
+	left:35px;
+	padding:10px;
+}
+
+div.div5 form{
+	position:relative;
+	left:50px;
+}
+
+div.div6{
+	background-color:rgba(0,0,0,0.5);
+	font-family:georgia,serif;
+	min-width:100px;
+	max-width:200px;
+	min-height:100px;
+	max-height:300px;
+	padding:15px;
+	position:relative;
+	top:-130px;
+	left:800px;
+}
+
+div.div6 img{
+	position:relative;
+	left:40px;
+	padding:15px;
+}
+
+div.div6 form{
+	position:relative;
+	left:50px;
+	top:-5px;
+}
+
+div.div7{
+	background-color:rgba(0,0,0,0.5);
+	position:absolute;
+	min-width:200px;
+	max-width:300px;
+	min-height:150px;
+	max-height:200px;
+	top:350px;
+	left:560px;
+	padding:10px;
+}
+
+div.div7 img{
+	position:relative;
+	top:10px;
+	left:45px;
+}
+
+div.div7 form{
+	position:relative;
+	top:20px;
+	left:35px;
+}
