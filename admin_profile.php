@@ -23,7 +23,25 @@
 			<fieldset class="box0">
 				<legend>Personal info</legend>
 				<div>
-					<img src="images/avatar.png">
+					<?php 
+				if($con){
+		//mysqli_select_db($con,'profile') or die("cannnot connect to db");
+		$flag=1;
+		$user=$_SESSION['sess_user'];
+		$sql=" SELECT * FROM profile.admin_profile WHERE username='$user' ";
+		$result=mysqli_query($con,$sql);
+		$resultcheck=mysqli_num_rows($result);
+		if($resultcheck){
+			if($rows=mysqli_fetch_assoc($result)){
+				$image=$rows['image'];
+				$mail=$rows['email'];
+				echo '<img src="data:image/jpeg;base64,'.base64_encode( $image ).'"/>';
+				
+			}
+			else echo "<a><img src=\"images/avatar.png\" width=\"100px\" height=\"100px\"></a>";
+		}
+				}
+				?>
 				</div>
 				<div class="name">
 					<h1>Hello, <?=$_SESSION['sess_user'];?></h1>
@@ -36,7 +54,6 @@
 				</div>
 			</fieldset>
 		</div>
-
 
 
 		<div class="div1">

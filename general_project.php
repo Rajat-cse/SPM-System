@@ -26,7 +26,9 @@
 </head>
 
 <body>
-
+<form action="superhead_profile.php" method="">
+		<button style="top:-5px;left:1050px"class="logout" value="logout">Back</button>
+</form>
 <div>
 <form action="" method="POST" enctype="multipart/form-data">
 <p id="id1">Select Project  Name:</p><?php 

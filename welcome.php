@@ -50,8 +50,8 @@
 
 
 	<div class="div4">
-		<a id="a1" href="aboutus.html">about_us</a>
-		<a id="a2" href="contactus.html">contact_us</a>
+		<a id="a1" href="about.html">about_us</a>
+		<a id="a2" href="contact.html">contact_us</a>
 		<a id="a3" href="support.php">support</a>
 	</div>
 	

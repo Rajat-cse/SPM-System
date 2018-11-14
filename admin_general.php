@@ -58,7 +58,10 @@ else{
 			<div>
 			<form action="admin_logout.php" method="">
 				<button class="logout" name="email" value="logout">Logout</button>
-				</form>
+			</form>
+			<form action="admin_profile.php" method="">
+				<button style="top:-5px;left:950px"class="logout" value="logout">Back</button>
+			</form>
 			</div>
 		</fieldset>
 	</div>

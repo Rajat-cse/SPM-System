@@ -47,7 +47,7 @@ else{
 	<title>Account</title>
 	<link>
 </head>
-<body style="background-image:url(images/6.jpg)">
+<body >
 
 
 	<div class="div0">
@@ -63,7 +63,10 @@ else{
 			<div>
 			<form action="superhead_logout.php" method="">
 				<button class="logout" name="email" value="logout">Logout</button>
-				</form>
+			</form>
+			<form action="superhead_profile.php" method="">
+				<button style="top:-5px;left:950px"class="logout" value="logout">Back</button>
+			</form>
 			</div>
 		</fieldset>
 	</div>

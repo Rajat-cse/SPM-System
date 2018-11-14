@@ -120,6 +120,7 @@
 				</a>
 			</div>
 		</fieldset>
+		
 		<fieldset class="request">
 			<legend>Requests...</legend>
 			

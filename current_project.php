@@ -19,13 +19,12 @@ if(strcasecmp($post,$head)==0){?>
 <!DOCTYPE html>
 
 <html>
-<link href="project.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="project.css" >
 <head>
 <title>Current project detail</title>
 </head>
 
 <body>
-
 <div>
 <form action="" method="POST" enctype="multipart/form-data">
 <p id="id1">Select Project  Name:</p>

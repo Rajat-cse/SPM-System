@@ -170,24 +170,24 @@ else{
 				echo $project;
 				$sql2="SELECT * FROM work.graph WHERE prj_name = '$project';";
 				$result=mysqli_query($con,$sql2);
-				if($result!=False){
-					if($row=mysqli_fetch_assoc($result)){
+				if($result!=False)
+				{
+					if($row=mysqli_fetch_assoc($result))
+					{
 						$a=$row['analysis'];
 						$d=$row['design'];
 						$c=$row['coding'];
 						$t=$row['testing'];
 						$p=$row['deployment'];
 						$m=$row['maintenance'];
-		}
-		
-	}
+					}
+				}
 				echo '<div id="chartContainer" style="height: 370px; width: 100%;"></div>
 								<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>';
 			}
 		?>
-		
-	</fieldset>
-</div>
+		</fieldset>
+	</div>
 	<div class="div3">
 		
 		<fieldset class="box4">

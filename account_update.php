@@ -38,15 +38,15 @@
 		?>
 </p>
 
-<form method="POST">
-change username : <input type="text" name="user" ></input><input type="submit" name="update_username"></input>
-</form>
-<form method="POST">
-change password : <input type="password" name="pass" ></input>
-confirm password : <input type="password" name="cpass" ></input>
-<input type="submit" name="update_password"></input>
-</form>
-</fieldset>
+		<form method="POST">
+			change username : <input type="text" name="user" ></input><input type="submit" name="update_username"></input>
+		</form>
+		<form method="POST">
+			change password : <input type="password" name="pass" ></input>
+			confirm password : <input type="password" name="cpass" ></input>
+			<input type="submit" name="update_password"></input>
+		</form>
+	</fieldset>
 </div>
 </body>
 </html>

@@ -19,22 +19,25 @@
 </head>
 
 <body>
-	<p><b>Please Make Appropriate Changes</b></p>
-<div class="div2" style="position:relative;top:100px">
-	<fieldset class="box6">
-		<legend>New Project Details</legend>
+	<p style="text-align:center;font-size:20px"><b>Please Make Appropriate Changes</b></p>
+	<form action="superhead_profile.php" method="">
+		<button style="top:-5px;left:1050px"class="logout" value="logout">Back</button>
+	</form>
+	<div class="div2" style="position:relative;top:50px">
+		<fieldset class="box6">
+			<legend>New Project Details</legend>
 			<form method="POST">
-				Project_Name		:<input class="textbox" style="min-width:400px" type="text" name="prjname"></input><br/><br/><br/>
-				Initial_Date        :<input class="textbox" style="min-width:400px" type="date" name="init"></input><br/><br/><br/>
-				Final_Date  		:<input class="textbox" style="min-width:400px" type="date" name="inid"></input><br/><br/><br/>
-				Budget      		:<input class="textbox" style="min-width:400px" type="number" name="budget"></input><br/><br/><br/>
-				Efforts_No.of_People     :<input class="textbox" style="min-width:400px" type="number" name="efforts"></input><br/><br/><br/>
-				<input class="choosefile" type="submit" name="submit1"></input>
+				Project_Name		:<input class="textbox" style="min-width:400px" type="text" name="prjname"><br/><br/><br/>
+				Initial_Date        :<input class="textbox" style="min-width:400px" type="date" name="init"><br/><br/><br/>
+				Final_Date  		:<input class="textbox" style="min-width:400px" type="date" name="inid"><br/><br/><br/>
+				Budget      		:<input class="textbox" style="min-width:400px" type="number" name="budget"><br/><br/><br/>
+				Efforts_No.of_People     :<input class="textbox" style="min-width:400px" type="number" name="efforts"><br/><br/><br/>
+				<input class="choosefile" type="submit" name="submit1">
 			</form>
-	</fieldset>
+		</fieldset>
 
-	<fieldset class="box6">
-		<legend>Allocate Phase</legend>
+		<fieldset class="box6">
+			<legend>Allocate Phase</legend>
 			<form method="POST">
 				Phase_Name  		:
 									<select name='phase' class="textbox">
@@ -83,15 +86,14 @@
 									}
 								
 									?> 
-									<br/><br/>
-				<input class="choosefile" type="submit" name="submit2">
+									<br/><br/><br/>
+				<input style="left:125px;"class="choosefile" type="submit" name="submit2">
 			</form>
-	</fieldset>
+		</fieldset>
 
-
-	<fieldset class="box6">
-		<legend>All Project Details</legend>
-		<!--fetch data and show here-->
+		<fieldset class="box6">
+			<legend>All Project Details</legend>
+			<!--fetch data and show here-->
 			<?php
 				if($con)
 				{
@@ -110,11 +112,11 @@
 					echo "Cannot connect at this time";
 				}
 			?>
-	</fieldset>
-
-	<fieldset class="box2">
-		<legend>All Phase Details</legend>
-		<!--fetch data and show here-->
+		</fieldset>
+		
+		<fieldset>
+			<legend>All Phase Details</legend>
+			<!--fetch data and show here-->
 			<?php
 				if($con)
 				{
@@ -131,8 +133,8 @@
 					echo "Cannot connect at this time";
 				}
 			?>
-	</fieldset>
-</div>
+		</fieldset>
+	</div>
 </body>
 </html>
 
@@ -146,7 +148,7 @@
 					$inid=$_POST['inid'];
 					$budget=$_POST['budget'];
 					$efforts=$_POST['efforts'];
-					$sql="INSERT INTO project (prj_name,init,inid,budget,efforts)VALUES ('$prjname','$init','$inid','$budget','$efforts') ;";
+					$sql="INSERT INTO project (prj_name,in_it,inid,budget,efforts) VALUES('$prjname','$init','$inid','$budget','$efforts') ;";
 					$result=mysqli_query($con,$sql) or die('Project already exist ,cannot process data at this time');
 					if($result){
 						header("Location: assign_project.php?registration=SUCCESS");
